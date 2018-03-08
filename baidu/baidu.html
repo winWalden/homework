@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link href="Baidu.css" rel="stylesheet" type="text/css" />
+    <title>百度一下,你就知道</title>
+    <script type="text/javascript" src="Baidu.js"></script>
+</head>
+
+<body>
+    <div id="top">
+            <div class="one">
+                <a style="color:#262626" href="http://news.baidu.com/">新闻</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="https://www.hao123.com/">hao123</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="https://map.baidu.com/">地图</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="http://v.baidu.com/">视频</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="https://tieba.baidu.com">贴吧</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="http://xueshu.baidu.com/">学术</a>&nbsp;&nbsp;&nbsp;
+                <a style="color:#262626" href="#">登录</a>
+            </div>
+            <div class="two">
+                <ul>
+                <li onmouseover="showsub(this)" onmouseout="hidesub(this)">
+                    <a style="color:#262626" href="#">设置</a>&nbsp;&nbsp;&nbsp;  
+                    <ul style="display:none">  
+                        <li><a href="#">搜索设置</a></li>  
+                        <li><a href="#">高级搜索</a></li>  
+                        <li><a href="#">开启预测</a></li>  
+                        <li><a href="#">搜索历史</a></li>
+                    </ul>  
+                </li>
+                </ul>
+            </div>    
+            <div class="three">
+                <ul>
+                <li onmouseover="showsub(this)" onmouseout="hidesub(this)">
+                    <a style="color:white" href="#">更多产品</a>&nbsp;
+                    <ul style="display:none">  
+                        <li><a href="https://www.nuomi.com/?cid=002540">糯米</a></li>  
+                        <li><a href="http://music.baidu.com/">音乐</a></li>  
+                        <li><a href="http://image.baidu.com/">图片</a></li>  
+                        <li><a href="https://zhidao.baidu.com/">知道</a></li>
+                        <li><a href="https://wenku.baidu.com/">文库</a></li>
+                        <li><a href="http://top.baidu.com/">风云榜</a></li>
+                        <li><a href="https://www.baidu.com/more/">全部产品</a></li>
+                    </ul>  
+                </li>
+                </ul>
+            </div>
+    </div>
+            
+    <br/><br/>
+    <div class="setCenter",id="tab">
+        <img src="img/logo.png" width="270" height="130" />
+        <img src="img/1.jpg"    width="270" height="130" style="display:none" />
+        <img src="img/2.jpg"    width="270" height="130" style="display:none" />
+        <img src="img/3.jpg"    width="270" height="130" style="display:none" />
+        <img src="img/4.jpg"    width="270" height="130" style="display:none" />
+    </div>
+    <br/>
+    <div class="setCenter">
+        <form method="get" action="http://www.baidu.com/baidu" target="_self">
+            <input type=text class="form_input" name=word style="width:600px; height:38px; font-size:20px; " />
+            <input type="submit" value="百度一下" style="width: 102px; height: 38px; font-size:16px; background-color:rgb(105, 165, 248); color:white; border:0;"/>
+        </form>
+    </div>
+    <div class="bottom">
+        <div class="erweima">
+            <img style="height: 65px;width: 65px;" src="img/二维码.jpg">
+            <p class="baidu-position">百度</p>
+        </div>
+        <div class="bottom-line">
+            <a style="text-decoration: underline;color: #999999;padding-right: 20px;" href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a>&nbsp;
+            <a style="text-decoration: underline;color: #999999;padding-right: 20px;" href="http://home.baidu.com/">关于百度</a>&nbsp;
+            <a style="text-decoration: underline;color: #999999;padding-right: 20px;" href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-irhome">About Baidu</a>&nbsp;
+            <a style="text-decoration: underline;color: #999999;padding-right: 20px;" href="http://e.baidu.com/?refer=888">百度推广</a>&nbsp;
+        </div>
+        <div class="copyright">
+            <p>©2018 Baidu
+            <a style="color:#999999;" href="https://www.baidu.com/duty/">使用百度前必读</a>
+            <a style="color:#999999;" href="http://jianyi.baidu.com/">意见反馈</a> 京ICP证030173号&nbsp;&nbsp;&nbsp;
+            <a style="color:#999999;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001">京公网安备11000002000001号</a>
+            <img style="height:15px;width:15px;" src="http://www.beian.gov.cn/img/beianbgs.png">
+            </p>
+        </div>
+    </div>
+        
+</body>
+
+</html>
